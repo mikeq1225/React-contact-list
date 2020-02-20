@@ -1,0 +1,41 @@
+.person {
+  color: black;
+  list-style: none;
+  display: grid;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.person img {
+  border-radius: 50%;
+}
+
+svg {
+  margin: 0px 10px;
+}
+
+.imageBox {
+  background: rgb(160, 210, 111);
+  width: 400px;
+  height: 250px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.backButton {
+  align-self: start;
+  font-size: 40px;
+  padding: 15px 0px;
+}
+
+.personBox p {
+  border-bottom: 1px solid lightgray;
+  padding: 10px 0px;
+  font-size: 18px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
